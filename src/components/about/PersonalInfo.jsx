@@ -9,7 +9,7 @@ const personalInfoContent = [
   { meta: "Address", metaInfo: "Pakistan" },
   { meta: "phone", metaInfo: "+923002245404" },
   { meta: "whatsapp", metaInfo: "+923002245404" },
-  { meta: "Skype", metaInfo: "" },
+  { meta: "Skype", metaInfo: "live:.cid.335f470e758fc09e" },
   { meta: "Email", metaInfo: "ghazanfarmalik345@gmail.com" },
   { meta: "languages", metaInfo: "Urdu, English" },
 ];

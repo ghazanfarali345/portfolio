@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_7e93qwa",
+        "template_y9bm4gq",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "FyjQCJ4HE0xZJFspw"
       )
       .then(
         (result) => {
@@ -48,7 +48,12 @@ const Contact = () => {
         <div className="row">
           <div className="col-12 col-md-6">
             <div className="form-group">
-              <input type="text" name="name" placeholder="YOUR NAME" required />
+              <input
+                type="text"
+                name="from_name"
+                placeholder="YOUR NAME"
+                required
+              />
             </div>
           </div>
           {/* End .col */}
